@@ -1,12 +1,17 @@
 body {
 	background-color: #f2f4f7;
+	display: flex;
 	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	height: 100%;
+	margin: 0;
 }
 .wrapper {
 	display: inline-block;
 	background-color: rgb(255, 255, 255);
 	padding: 30px;
-	margin-left: 36%;
+	margin: 0 auto;
 	height: 296px;
 	width: 330px;
 	justify-items: center;
@@ -43,11 +48,13 @@ input:focus::placeholder {
 	color: #a6a6a6;
 }
 #facebook-icon {
-	width: 230px;
+	margin-top: 50px;
+	width: 250px;
 	height: auto;
 }
 img {
-	margin-left: 588px;
+	display: block;
+	margin: 0 auto;
 }
 #login {
 	margin-bottom: 15px;
