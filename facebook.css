@@ -1,0 +1,101 @@
+body {
+	background-color: #f2f4f7;
+	justify-content: center;
+}
+.wrapper {
+	display: inline-block;
+	background-color: rgb(255, 255, 255);
+	padding: 30px;
+	margin-left: 36%;
+	height: 296px;
+	width: 330px;
+	justify-items: center;
+	border-radius: 15px;
+	-webkit-box-shadow: 0px 12px 54px -10px rgba(34, 60, 80, 0.2);
+	-moz-box-shadow: 0px 12px 54px -10px rgba(34, 60, 80, 0.2);
+	box-shadow: 0px 12px 54px -10px rgba(34, 60, 80, 0.2);
+}
+#entrance,
+#new-account,
+#forgot {
+	display: block;
+}
+input {
+	display: block;
+	margin: 5px;
+	height: 44px;
+	width: 99%;
+	padding-left: 10px;
+	border-color: #a6a6a6;
+	border: 1px solid;
+	border-color: #b9b9b9;
+	border-radius: 7px;
+	font-size: medium;
+}
+input::placeholder {
+	color: #868686;
+	font-size: medium;
+}
+input:focus {
+	outline: 1px solid rgb(46, 46, 255);
+}
+input:focus::placeholder {
+	color: #a6a6a6;
+}
+#facebook-icon {
+	width: 230px;
+	height: auto;
+}
+img {
+	margin-left: 588px;
+}
+#login {
+	margin-bottom: 15px;
+}
+#password {
+	margin-bottom: 20px;
+}
+button {
+	height: 50px;
+	width: 104%;
+	border-radius: 7px;
+	border: none;
+	background-color: #0866ff;
+	color: white;
+	font-weight: bold;
+	font-size: large;
+	transition: ease-in-out 0.2s;
+}
+button:active {
+	transform: scale(0.98);
+	transition: 0.1s;
+}
+#entrance {
+	margin-bottom: 16px;
+}
+#new-account {
+	background-color: #42b72a;
+	width: 230px;
+	font-size: medium;
+	margin-top: 14px;
+}
+#forgot {
+	color: #0866ff;
+	text-decoration: none;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+		'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	font-size: smaller;
+	font-weight: bold;
+	margin-bottom: 16px;
+}
+#forgot:hover {
+	text-decoration: underline;
+}
+#entrance:hover {
+	cursor: pointer;
+	background-color: #2277ff;
+}
+#new-account:hover {
+	cursor: pointer;
+	background-color: #4fac3d;
+}
